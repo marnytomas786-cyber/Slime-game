@@ -1,5 +1,5 @@
 # Slime-game
-our slime game
+our wrilly good slime game
 
 
 You can move with W,S,A,D 
