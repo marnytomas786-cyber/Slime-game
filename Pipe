@@ -31,7 +31,7 @@ public class BurstPipe : MonoBehaviour
         main.startLifetime = 0.5f;
         main.startSpeed = jetLength * 2f;
         main.startSize = 0.4f;
-        main.startColor = new Color32(100, 180, 255, 200);
+        main.startColor = new ParticleSystem.MinMaxGradient(new Color32(100, 180, 255, 200));
         main.simulationSpace = ParticleSystemSimulationSpace.World;
         main.maxParticles = 300;
 
